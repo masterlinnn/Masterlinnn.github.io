@@ -1,0 +1,104 @@
+﻿<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0,user-scalable=0" />
+		<meta name="Description" content="masterlinnn.github.io">
+		<meta name="keywords" content="网站引导页-masterlinnn.github.io">
+		<noscript>请使用支持 JavaScript 的浏览器访问本页面哟</noscript>
+		<link rel="stylesheet" href="css/style.css" />
+		<title>MasterLinnn的个人主页</title>
+		<link rel="stylesheet" href="dist/styles/Vidage.css" />
+        <link rel="stylesheet" href="css/ionicons.min.css">
+        <link href="dist/mfb.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/demo.css">
+		<link rel="stylesheet" href="css/fakeloader.css">
+		
+	</head>
+	<body>
+	
+	<div class="fakeloader"></div>
+        <div class="fakeloader"></div>
+		
+		<!--						视频背景						-->
+	<div class="Vidage">
+		<div class="Vidage__image"></div>
+        <video id="VidageVideo" class="Vidage__video" autoplay loop style="width:100%;">
+			<source src="videos/bg.mp4" type="video/mp4">
+		</video>
+	</div>
+	<script src="dist/scripts/Vidage.min.js"></script>
+		<script>
+		new Vidage('#VidageVideo');
+	</script>
+	
+	
+		<div class="nav-t">
+			<div id="nav">
+					  欢迎来到 MasterLinnn 的个人主页
+			</div>
+			
+			
+		</div>
+		
+	
+		
+		<div id="index-header">
+		
+		<div class="text">
+				<div class="box-t"></div>
+				<p>WelCome</p>
+				<div class="box-t"></div>
+			</div>
+		
+		
+			<div class="top-logo">
+				<img src="logo/top-logo.jpg"/>
+			</div>
+			
+			<div class="text">
+				<div class="box-t"></div>
+				<p>今天的我爱答不理，明天的我高攀不起</p>
+				<p></p>
+				<p>What's the cost of lie ?</p>
+				<p></p>
+				<p>QQ：2453264243</p>
+			
+				<div class="box-t"></div>
+			</div>
+				
+				<div id="content">
+				<div class="C-B">
+						<b><center>
+						
+						<br>我相信,没有最好！,只有更好！
+					 <br>I believe that there is no best! , Only better!
+						
+					
+					</div>
+					
+					<!-- 音乐 -->
+					<div class="bgm">
+						<audio   src="music/bgm.mp3" autoplay="autoplay" loop="loop" controls="controls">
+						Your Browser Does Not Support Music  Plugging!
+						</audio>
+						</div>
+			
+			</div>
+				
+
+			
+		</div>
+		
+		 <script src="js/jquery.min.js"></script>
+        <script src="js/fakeloader.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $(".fakeloader").fakeLoader({
+                    timeToHide:1600,
+                    bgColor:"#F12933",
+                    spinner:"spinner4"
+                });
+            });
+        </script>
+	</body>
+</html>
